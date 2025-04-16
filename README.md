@@ -1,0 +1,3 @@
+# sfc.best official repository and deployment
+
+its all in the title basically. not meant for user deployment and whatnot so no tutorials on anything...
