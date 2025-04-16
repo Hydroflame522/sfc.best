@@ -1,0 +1,53 @@
+html, body {
+    width: 100%;
+    font-family: JetBrainsMono;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: JetBrainsMono;
+  }
+
+  button {
+    background-color: rgba(192, 192, 192, 0.5);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family: JetBrainsMono;
+    color: white;
+
+  }
+
+  button:hover {
+    background-color: rgba(192, 192, 192, 1);
+  }
+
+  @font-face {
+    font-family: JetBrainsMono;
+    src: url('../assets/fonts/JetBrainsMono-Regular.ttf');
+  }
+
+  .container {
+      text-align: center;
+    }
+    
+  p {
+      font-size: 12px;
+      max-width: 600px;
+  }
