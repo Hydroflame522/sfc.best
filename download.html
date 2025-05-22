@@ -25,7 +25,7 @@
             fetch('statefarm.js')
                 .then(response => response.text())
                 .then(text => {
-                    document.getElementById('hidden-script').textContent = text;
+                    document.getElementById('hidden-text').textContent = text;
                 })
                 .catch(err => {
                     console.error('Failed to load script text:', err);
